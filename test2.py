@@ -5,7 +5,7 @@ import json
 import time
 
 
-class TestInventory1(object):
+class TestInventory2(object):
     def __init__(self):
         self.inventory = {
             "_meta": {
@@ -46,4 +46,4 @@ class TestInventory1(object):
 
 
 if __name__ == '__main__':
-    TestInventory1()
+    TestInventory2()
