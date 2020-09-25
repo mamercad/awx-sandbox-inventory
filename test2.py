@@ -30,7 +30,7 @@ class TestInventory1(object):
                 ]
             }
         }
-        if int(time.time())%2 == 0: # Fail about half the time
+        if int(time.time())%2: # Fail about half the time
             raise Exception('Whoops')
         print(self.json_format_dict(self.inventory))
 
