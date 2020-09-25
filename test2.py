@@ -15,6 +15,9 @@ class TestInventory1(object):
                     },
                     "host2": {
                         "var2": "value"
+                    },
+                    "host3": {
+                        "var3": "value"
                     }
                 }
             },
@@ -26,7 +29,8 @@ class TestInventory1(object):
             "ungrouped": {
                 "hosts": [
                     "host1",
-                    "host2"
+                    "host2",
+                    "host3"
                 ]
             }
         }
